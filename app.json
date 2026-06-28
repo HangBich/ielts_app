@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "IELTS Writing Coach",
+    "slug": "ielts-coach",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTabletMode": true,
+      "permissions": ["RECORD_AUDIO"]
+    },
+    "android": {
+      "permissions": ["RECORD_AUDIO", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow IELTS Writing Coach to access your microphone."
+        }
+      ]
+    ]
+  }
+}
